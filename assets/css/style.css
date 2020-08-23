@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+.navbar {
+    background-color: #e3f2fd;
+}
+body {
+    background-color: seagreen;
+    color: black;
+}
+
+.container {
+    background-color: palegreen;
+    margin-top: 40px;
+}
+.table {
+    color: black;
+}
+
+#other-content {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+
+    #other-content {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    .container {
+        width: 100%;
+    }
+  
+    #other-content {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+  
+  }
+
