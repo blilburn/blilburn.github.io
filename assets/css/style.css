@@ -48,6 +48,33 @@ body {
   transform: translateY(0);
 }
 
+.imageOverlayTwo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.25s;
+}
+
+.imageOverlayTwo > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.imageOverlayTwo:hover {
+  opacity: 1;
+}
+
+.imageOverlayTwo:hover > * {
+  transform: translateY(0);
+}
+
 .imageTitle {
   font-size: 1.5rem;
   font-weight: bold;
